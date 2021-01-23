@@ -51,7 +51,7 @@ const simpleMqtt = new SimpleMqtt(mqttSetting, topics)
 ```
 1. SimpleMqtt는 자동으로 위의 토픽을 "device/+/data"로 변경하여 subscribe하게 됩니다.
 
-2. topic "device/<deviceId>/data"는 deviceDataDispatcher함수에서 처리됩니다.
+2. topic "device/\<deviceId\>/data"는 deviceDataDispatcher함수에서 처리됩니다.
 
 3. 파라미터인 <deviceId>는 deviceDataDispatcher 파라미터인 params안에 자동으로 파싱됩니다.
     
