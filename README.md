@@ -26,7 +26,7 @@ client.on('message', function (topic, message) {
 
 topic 안에서 식별자를 찾기위해 위 예제와 같이 어떠한 파라미터를 꺼내야 할수도있습니다.
  
-SimpleMqttt 사용법
+# SimpleMqttt 사용법
 
 ```js
 
