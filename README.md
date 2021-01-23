@@ -1,6 +1,3 @@
-# SimpleMqtt
-javascript simple mqtt
-
 # 설명
 이 저장소는 NODE에서 사용되는 MQTT를 조금더 간단하게 사용하기 위한 라이브러리입니다.
 
